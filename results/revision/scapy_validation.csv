@@ -1,0 +1,8 @@
+frame,scapy_layer,version,type,code,sessionid,expected,len,payload,fields_ok,qfi,rqi,reserved,scapy_rebuild_byte_identical,frames,mismatches
+1,PPPoED,1,1,0x9,0x0,PADI,,,,,,,,,
+2,PPPoED,1,1,0x7,0x0,PADO,,,,,,,,,
+3,PPPoED,1,1,0x19,0x0,PADR,,,,,,,,,
+4,PPPoED,1,1,0x65,0x1234,PADS,,,,,,,,,
+5,PPPoE,1,1,0x0,0x1234,,86,PPP,True,,,,,,
+6,PPPoE,2,1,0x16,0x7,,86,Raw,True,5,1,0,True,,
+sweep,PPPoE,,,,,,,,,,,,,144,0

@@ -1,0 +1,17 @@
+quantity,formula,closed_form,simulated,unit
+"CP utilization mono N=1, load 1.0",lambda x (1-B) x CP work / n_CP,6.0,5.98,%
+"CP utilization dbng N=1, load 1.0",lambda x (1-B) x CP work / n_CP,7.58,7.58,%
+"CP utilization dbng N=8, load 1.0",lambda x (1-B) x CP work / n_CP,60.5,60.5,%
+"CP utilization vbng N=1, load 1.0",lambda x (1-B) x CP work / n_CP,7.48,7.5,%
+"CP utilization vbng N=8, load 1.0",lambda x (1-B) x CP work / n_CP,7.49,7.5,%
+"Extra frames per IP packet, MTU 1492 vs 1500",share of 1500-B packets = 1/12,8.33,8.33,%
+"Forwarding loss mono N=1, load 0.9, MTU 1492","1 - E[min(k, cap/fps)] / E[k], k ~ Erlang occupancy",0.15,0.14,%
+"Forwarding loss mono N=1, load 1.0, MTU 1492","1 - E[min(k, cap/fps)] / E[k], k ~ Erlang occupancy",0.63,0.6,%
+"Forwarding loss mono N=1, load 1.5, MTU 1492","1 - E[min(k, cap/fps)] / E[k], k ~ Erlang occupancy",2.21,2.14,%
+"Forwarding loss vbng N=1, load 0.9, MTU 1492","1 - E[min(k, cap/fps)] / E[k], k ~ Erlang occupancy",13.03,12.74,%
+"Forwarding loss vbng N=1, load 1.0, MTU 1492","1 - E[min(k, cap/fps)] / E[k], k ~ Erlang occupancy",18.01,17.89,%
+"Forwarding loss vbng N=1, load 1.5, MTU 1492","1 - E[min(k, cap/fps)] / E[k], k ~ Erlang occupancy",21.72,21.64,%
+"DBNG N=1 minus monolithic mean setup, load 0.5",6 redirect RTTs + PFCP CP + PFCP UP (no queueing),66.0,66.7,ms
+UP pps budget / offered pps of a full 200-session table (MTU 1500),up_headroom,1.05,1.05,x
+"Implied CP ceiling, monolithic",1 / CP work per setup,52.6,,setups/s
+"Implied CP ceiling, DBNG",1 / CP work per setup,41.7,,setups/s

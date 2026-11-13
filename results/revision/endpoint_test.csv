@@ -1,0 +1,7 @@
+node,encap,sent,accepted_or_forwarded,dropped
+Access node (Ethertype + SESSION_ID),pppoe,5024,5024,0
+5WE-unaware PPPoE endpoint (legacy BNG),pppoe,5024,5024,0
+"5WE-aware endpoint (AGF, PPPoE + 5WE)",pppoe,5024,5024,0
+Access node (Ethertype + SESSION_ID),5we,4976,4976,0
+5WE-unaware PPPoE endpoint (legacy BNG),5we,4976,0,4976
+"5WE-aware endpoint (AGF, PPPoE + 5WE)",5we,4976,4976,0

@@ -1,0 +1,45 @@
+mix,up_sized_to,load,mtu,fwd_loss_pct,ci95,up_util
+simple IMIX 40/576/1500 = 7:4:1 (baseline),baseline mix,0.9,1492,0.14300191114758887,0.019597041589823005,0.9149675480931941
+simple IMIX 40/576/1500 = 7:4:1 (baseline),baseline mix,0.9,1500,0.0,0.0,0.8457993042159553
+simple IMIX 40/576/1500 = 7:4:1 (baseline),baseline mix,1.5,1492,2.1374561394122247,0.018222184216119673,0.9992162825115496
+simple IMIX 40/576/1500 = 7:4:1 (baseline),baseline mix,1.5,1500,0.0,0.0,0.9424993146158502
+simple IMIX 40/576/1500 = 7:4:1 (baseline),this mix,0.9,1492,0.14300191114758887,0.019597041589823005,0.9149675480931941
+simple IMIX 40/576/1500 = 7:4:1 (baseline),this mix,0.9,1500,0.0,0.0,0.8457993042159553
+simple IMIX 40/576/1500 = 7:4:1 (baseline),this mix,1.5,1492,2.1374561394122247,0.018222184216119673,0.9992162825115496
+simple IMIX 40/576/1500 = 7:4:1 (baseline),this mix,1.5,1500,0.0,0.0,0.9424993146158502
+"MSS 1452 clamped, 50% of full-size are TCP",baseline mix,0.9,1492,0.0,0.0,0.8819047075209276
+"MSS 1452 clamped, 50% of full-size are TCP",baseline mix,0.9,1500,0.0,0.0,0.8466285192200919
+"MSS 1452 clamped, 50% of full-size are TCP",baseline mix,1.5,1492,0.0,0.0,0.9827326391164058
+"MSS 1452 clamped, 50% of full-size are TCP",baseline mix,1.5,1500,0.0,0.0,0.9434233335517503
+"MSS 1452 clamped, 50% of full-size are TCP",this mix,0.9,1492,0.0,0.0,0.8810409418916295
+"MSS 1452 clamped, 50% of full-size are TCP",this mix,0.9,1500,0.0,0.0,0.8457993042159515
+"MSS 1452 clamped, 50% of full-size are TCP",this mix,1.5,1492,0.0,0.0,0.9817701193915236
+"MSS 1452 clamped, 50% of full-size are TCP",this mix,1.5,1500,0.0,0.0,0.9424993146158501
+"MSS 1452 clamped, 90% of full-size are TCP",baseline mix,0.9,1492,0.0,0.0,0.8543538383220793
+"MSS 1452 clamped, 90% of full-size are TCP",baseline mix,0.9,1500,0.0,0.0,0.8472930627987562
+"MSS 1452 clamped, 90% of full-size are TCP",baseline mix,1.5,1492,0.0,0.0,0.9520318863402407
+"MSS 1452 clamped, 90% of full-size are TCP",baseline mix,1.5,1500,0.0,0.0,0.9441638542217275
+"MSS 1452 clamped, 90% of full-size are TCP",this mix,0.9,1492,0.0,0.0,0.8528476317510908
+"MSS 1452 clamped, 90% of full-size are TCP",this mix,0.9,1500,0.0,0.0,0.8457993042159544
+"MSS 1452 clamped, 90% of full-size are TCP",this mix,1.5,1492,0.0,0.0,0.9503534755709846
+"MSS 1452 clamped, 90% of full-size are TCP",this mix,1.5,1500,0.0,0.0,0.9424993146158516
+"MSS 1452 clamped, 100% of full-size are TCP",baseline mix,0.9,1492,0.0,0.0,0.8474593617315922
+"MSS 1452 clamped, 100% of full-size are TCP",baseline mix,0.9,1500,0.0,0.0,0.8474593617315922
+"MSS 1452 clamped, 100% of full-size are TCP",baseline mix,1.5,1492,0.0,0.0,0.9443491660675016
+"MSS 1452 clamped, 100% of full-size are TCP",baseline mix,1.5,1500,0.0,0.0,0.9443491660675016
+"MSS 1452 clamped, 100% of full-size are TCP",this mix,0.9,1492,0.0,0.0,0.8457993042159567
+"MSS 1452 clamped, 100% of full-size are TCP",this mix,0.9,1500,0.0,0.0,0.8457993042159567
+"MSS 1452 clamped, 100% of full-size are TCP",this mix,1.5,1492,0.0,0.0,0.9424993146158519
+"MSS 1452 clamped, 100% of full-size are TCP",this mix,1.5,1500,0.0,0.0,0.9424993146158519
+"all 1500 B (bulk download, unclamped)",this mix,0.9,1492,40.872733334919744,0.3145486666715323,1.0
+"all 1500 B (bulk download, unclamped)",this mix,0.9,1500,0.0,0.0,0.845799304215953
+"all 1500 B (bulk download, unclamped)",this mix,1.5,1492,46.94953710451466,0.014222132741080976,1.0
+"all 1500 B (bulk download, unclamped)",this mix,1.5,1500,0.0,0.0,0.9424993146158478
+all 40 B (worst case pps),this mix,0.9,1492,0.0,0.0,0.8457993042159564
+all 40 B (worst case pps),this mix,0.9,1500,0.0,0.0,0.8457993042159564
+all 40 B (worst case pps),this mix,1.5,1492,0.0,0.0,0.9424993146158512
+all 40 B (worst case pps),this mix,1.5,1500,0.0,0.0,0.9424993146158512
+bimodal 40/1500 = 1:1 (unclamped),this mix,0.9,1492,21.16794510317054,0.41711165513996085,0.9999465010025792
+bimodal 40/1500 = 1:1 (unclamped),this mix,0.9,1500,0.0,0.0,0.84579930421595
+bimodal 40/1500 = 1:1 (unclamped),this mix,1.5,1492,29.26604947268569,0.018962843654746,1.0
+bimodal 40/1500 = 1:1 (unclamped),this mix,1.5,1500,0.0,0.0,0.9424993146158481

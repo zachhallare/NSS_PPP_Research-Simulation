@@ -1,0 +1,10 @@
+vector,rfc8822_expected,endpoint_model,endpoint_reason,endpoint_correct,codec_parse_frame_kind,codec_flags_violation
+"valid 5WE, PDU session 7, IPv4",accept,accept,accepted,True,5WE data,False
+"valid 5WE, Protocol ID 0x0057 (IPv6)",accept,accept,accepted,True,5WE data,False
+"valid 5WE, Protocol ID 0x0031 (Ethernet)",accept,accept,accepted,True,5WE data,False
+SESSION_ID 0xFFFF (reserved),discard,discard,SESSION_ID 0xFFFF reserved,True,5WE data,False
+unknown SESSION_ID 0x0099,discard,discard,unknown SESSION_ID,True,5WE data,False
+Protocol ID 0xC021 (LCP) inside 5WE,discard,discard,PROTOCOL ID 0xc021 not allowed,True,5WE data,False
+Protocol ID 0x8021 (IPCP) inside 5WE,discard,discard,PROTOCOL ID 0x8021 not allowed,True,5WE data,False
+VER 3 (unassigned),discard,discard,VER 3 not supported (silently discarded),True,unknown VER 3,True
+TYPE 2,discard,discard,TYPE != 1,True,5WE data,False

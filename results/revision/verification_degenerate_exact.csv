@@ -1,0 +1,9 @@
+check,load,metric,mono,dbng,max_abs_diff
+degenerate_no_pfcp,0.5,setup_mean_ms,40.77116537004694,40.77116537004694,0.0
+degenerate_no_pfcp,0.5,block_prob,0.0,0.0,0.0
+degenerate_no_pfcp,0.5,cp_util,0.031461201093547234,0.031461201093547234,0.0
+degenerate_no_pfcp,0.5,fwd_loss_pct,0.0,0.0,0.0
+degenerate_no_pfcp,1.0,setup_mean_ms,41.572752296531796,41.572752296531796,0.0
+degenerate_no_pfcp,1.0,block_prob,0.05230113899435133,0.05230113899435133,0.0
+degenerate_no_pfcp,1.0,cp_util,0.06019029809647166,0.06019029809647166,0.0
+degenerate_no_pfcp,1.0,fwd_loss_pct,0.5778520450862049,0.5778520450862049,0.0

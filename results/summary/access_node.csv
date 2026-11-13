@@ -1,0 +1,5 @@
+node,encap,sent,forwarded_unchanged,dropped,forwarded_pct
+legacy (Ethertype+SESSION_ID),5we,4976,4976,0,100.0
+legacy (Ethertype+SESSION_ID),pppoe,5024,5024,0,100.0
+negative control (polices VER),5we,4976,0,4976,0.0
+negative control (polices VER),pppoe,5024,5024,0,100.0
